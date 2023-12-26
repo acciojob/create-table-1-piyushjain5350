@@ -5,8 +5,8 @@ function insert_Row() {
 	const tr=document.createElement("tr");
 	let altCellNo=cellNo+1;
 	tr.innerHTML=`
-		<td>New Cell ${cellNo}</td> 
-		<td>New Cell ${altCellNo}</td>
+		<td>New Cell${cellNo}</td> 
+		<td>New Cell${altCellNo}</td>
  `
   tableContent.prepend(tr);
 	cellNo+=2;
